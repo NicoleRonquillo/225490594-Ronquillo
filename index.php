@@ -1,5 +1,6 @@
 <?php
 echo"Activity 1: Number Counter";
+echo "<br>";
 $i=1;
 while ($i <=10){
     echo $i." ";
@@ -19,6 +20,7 @@ while($i <= 20){
 
 <?php
 echo "Activity 2: Password Validator";
+echo"<br>";
 $correctPassword = "password123";
     
   do  {
@@ -34,6 +36,7 @@ echo "Access Granted";
 
 <?php
 echo"Activity 3: Multiplication Table";
+echo"<br>";
 $number = 7;
 for ($i = 1; $i <= 10; $i++) {
 
@@ -44,6 +47,7 @@ for ($i = 1; $i <= 10; $i++) {
 
 <?php
 echo "Activity 4: Loop Control with break and continue";
+echo"<br>";
 for ($i = 1; $i <= 10; $i++) {
   
     if ($i == 5) {
@@ -58,6 +62,7 @@ for ($i = 1; $i <= 10; $i++) {
 
 <?php
 echo "Activity 5: Sum of Numbers";
+echo"<br>";
 $sum = 0;
 $i = 1;
 
@@ -70,6 +75,7 @@ echo "The sum of numbers from 1 to 100 is: " . $sum;
 
 <?php
 echo "Activity 6: Array Iteration with foreach";
+echo"<br>";
 $favoriteMovies = array(
     "1. The Shawshank Redemption",
     "2. Inception",
@@ -86,6 +92,7 @@ foreach ($favoriteMovies as $movie) {
 
  <?php
  echo"Activity 7: Key-Value Pairs with foreach";
+ echo"<br>";
 $studentInfo = array(
     "Name" => "Alice",
     "Age" => 20,
@@ -100,6 +107,7 @@ foreach ($studentInfo as $key => $value) {
 
 <?php
 echo"Activity 8: Factorial Calculator";
+echo"<br>";
 $number = 5;
 
 $factorial = 1;
@@ -113,6 +121,7 @@ echo "Factorial of $number is: $factorial\n";
 
 <?php
 echo "Activity 9: FizzBuzz Challenge";
+echo"<br>";
  for ($i = 1; $i <= 50; $i++) {
     if ($i % 3 == 0 && $i % 5 == 0) {
         echo "FizzBuzz ";
@@ -131,6 +140,7 @@ echo "Activity 9: FizzBuzz Challenge";
 
 <?php
 echo "Activity 10: Prime Number Checker";
+echo"<br>";
 $number = 17; 
 $isPrime = true;
 if ($number < 2) {
@@ -152,6 +162,7 @@ if ($isPrime) {
 
 <?php
 echo "Activity 11: Fibonacci Sequence";
+echo"<br>";
 $fib1 = 0;
 $fib2 = 1;
 echo $fib1 . " " . $fib2 . " ";
@@ -167,6 +178,7 @@ while ($count < 10) {
 
 <?php
 echo"Activity 12: Reverse a String";
+echo"<br>";
 $inputString = "Hello";
 $reversedString = "";
 $length = strlen($inputString);
