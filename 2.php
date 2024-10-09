@@ -1,12 +1,13 @@
 <?php
 $correctPassword = "password123";
-$userInput = "";
-  while ($userInput !== $correctPassword) {
+    
+  do  {
     echo "Please enter the password: ";
-
-  if ($userInput !== $correctPassword) {
-        echo "Incorrect password. Please try again.\n"; 
-    }
+    $userInput = readline();
+    if ($userInput != $correctPassword) {
+    echo "Incorrect Password\n";
+  } 
 }
-echo "Access Granted.\n";
+while ($userInput != $correctPassword);
+echo "Access Granted";
 ?>
