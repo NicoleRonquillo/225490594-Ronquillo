@@ -11,3 +11,4 @@ foreach ($favoriteMovies as $movie) {
     echo $movie . "\n";
 }
 ?>
+ 
