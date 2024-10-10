@@ -20,7 +20,21 @@ while($i <= 20){
 
 <br>
 <br>
-
+<?php
+$correctPassword = "password123";
+    
+  do  {
+    echo "Please enter the password: ";
+    $userInput = readline();
+    if ($userInput != $correctPassword) {
+    echo "Incorrect Password\n";
+  } 
+}
+while ($userInput != $correctPassword);
+echo "Access Granted";
+?>
+<br>
+<br>
 
 <?php
 echo"Activity 3: Multiplication Table";
