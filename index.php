@@ -21,8 +21,9 @@ while($i <= 20){
 <br>
 <br>
 <?php
+echo "Activity 2: Password Validator";
 $correctPassword = "password123";
-    
+    echo"<br>";
   do  {
     echo "Please enter the password: ";
     $userInput = readline();
@@ -33,6 +34,7 @@ $correctPassword = "password123";
 while ($userInput != $correctPassword);
 echo "Access Granted";
 ?>
+
 <br>
 <br>
 
